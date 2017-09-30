@@ -20,7 +20,8 @@ const opt = {
       "/ip4/0.0.0.0/tcp/54324/ws",
     ],
     wstar_ignore: true
-  }
+  },
+  db: "/tmp/lp2p-im-" + Math.random()
 }
 /*const Servers = require("./servers.js")
 for (var p in Servers)
@@ -34,5 +35,5 @@ Id.createFromJSON({
   if (err) throw err
   opt.swarm.id = id
   const node = new IMNode(opt)
-  node.swarm.start(console.log)
+  node.start(console.log)
 })

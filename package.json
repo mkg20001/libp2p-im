@@ -28,6 +28,7 @@
     "libp2p-websocket-star-multi": "^0.2.0",
     "libp2p-websockets": "^0.10.1",
     "merge-recursive": "0.0.3",
+    "promisify": "0.0.3",
     "protons": "^1.0.0",
     "pull-protocol-buffers": "^0.1.1",
     "pull-stream": "^3.6.1"
