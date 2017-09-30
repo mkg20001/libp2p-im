@@ -1,0 +1,31 @@
+{
+  "name": "libp2p-im",
+  "version": "0.0.1",
+  "description": "A Tox-like instant messaging app built with libp2p",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "libp2p",
+    "im",
+    "instant-messaging",
+    "tox"
+  ],
+  "author": "Maciej Krüger <mkg20001@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "libp2p": "^0.12.4",
+    "libp2p-kad-dht": "^0.5.1",
+    "libp2p-mdns": "^0.9.1",
+    "libp2p-multiplex": "^0.5.0",
+    "libp2p-railing": "^0.7.1",
+    "libp2p-secio": "^0.8.1",
+    "libp2p-spdy": "^0.11.0",
+    "libp2p-tcp": "^0.11.0",
+    "libp2p-websocket-star-multi": "^0.2.0",
+    "libp2p-websockets": "^0.10.1",
+    "merge-recursive": "0.0.3",
+    "protons": "^1.0.0"
+  }
+}
