@@ -1,0 +1,7 @@
+{
+  "name": "Libp2p IM",
+  "short_name": "Libp2p IM",
+  "description": "A Tox-like instant messaging app built with libp2p",
+  "start_url": "/",
+  "display": "standalone"
+}
