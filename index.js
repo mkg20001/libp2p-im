@@ -35,5 +35,8 @@ Id.createFromJSON({
   if (err) throw err
   opt.swarm.id = id
   const node = new IMNode(opt)
-  node.start(console.log)
+  node.start(err => {
+    if (err) throw err
+    node.swarm.cmd("profile", node.swarm.peerInfo, console.log)
+  })
 })
