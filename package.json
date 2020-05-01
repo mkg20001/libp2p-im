@@ -4,7 +4,9 @@
   "description": "A Tox-like instant messaging app built with libp2p",
   "main": "lib/node/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "browser": {
     "./lib/swarm/node-ext.js": "./lib/swarm/browser-ext.js",
@@ -36,6 +38,8 @@
     "promisify-es6": "^1.0.3",
     "protons": "^1.0.0",
     "pull-protocol-buffers": "^0.1.1",
-    "pull-stream": "^3.6.1"
-  }
+    "pull-stream": "^3.6.1",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
